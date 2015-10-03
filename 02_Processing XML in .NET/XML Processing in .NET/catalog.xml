@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<catalog xmlns:catalog="http://catalog.bg">
+  <albums>
+    <album>
+      <name>Coat Of Arms</name>
+      <artist>Sabaton</artist>
+      <year>2010</year>
+      <producer>Nuclear Blast</producer>
+      <price>15</price>
+      <songs>
+        <song>
+          <title>Coat of Arm</title>
+          <duration>3.34</duration>
+        </song>
+      <song>
+          <title>Midway</title>
+          <duration>2.29</duration>
+        </song>
+      <song>
+          <title>Uprising</title>
+          <duration>4.55</duration>
+        </song>
+      <song>
+          <title>Screaming Eagle</title>
+          <duration>4.07</duration>
+        </song>
+      <song>
+          <title>The Final Solution</title>
+          <duration>4.56</duration>
+        </song>
+      <song>
+          <title>Wehrmacht</title>
+          <duration>4.14</duration>
+        </song>
+      </songs>
+    </album>
+    <album>
+      <name>Against Each Other</name>
+      <artist>Black Light Discipline</artist>
+      <year>2012</year>
+      <producer>Wizard</producer>
+      <price>19</price>
+      <songs>
+        <song>
+          <title>Against Each Othe</title>
+          <duration>4.09</duration>
+        </song>
+      <song>
+          <title>Walls Inside Us</title>
+          <duration>4.23</duration>
+        </song>
+      <song>
+          <title>Red Rivers</title>
+          <duration>4.39</duration>
+        </song>
+      <song>
+          <title>Flies Over the Wreck</title>
+          <duration>3.43</duration>
+        </song>
+      <song>
+          <title>Waiting For the Rain</title>
+          <duration>3.57</duration>
+        </song>
+      </songs>
+    </album>
+    <album>
+      <name>SteepMusic 50 - Dubstep Vol.50</name>
+      <artist>Various</artist>
+      <year>2015</year>
+      <producer>Nuclear Blast</producer>
+      <price>25</price>
+      <songs>
+        <song>
+          <title>Bad Royale - One Puff</title>
+          <duration>3.52</duration>
+        </song>
+      <song>
+          <title>One Puff (mix)</title>
+          <duration>9.50</duration>
+        </song>
+      <song>
+          <title>Champagne Drip - Bubble Reef</title>
+          <duration>4.16</duration>
+        </song>
+      <song>
+          <title>Diskord - Release Me</title>
+          <duration>4.25</duration>
+        </song>
+      <song>
+          <title>Hexsonic - Elegy</title>
+          <duration>4.13</duration>
+        </song>
+      </songs>
+    </album>
+  <album>
+      <name>Heroes</name>
+      <artist>Sabaton</artist>
+      <year>2014</year>
+      <producer>Nuclear Blast</producer>
+      <price>10</price>
+      <songs>
+        <song>
+          <title>Night Witches</title>
+          <duration>3.11</duration>
+        </song>
+      <song>
+          <title>No Bullets Fly</title>
+          <duration>4.55</duration>
+        </song>
+      <song>
+          <title>Smoking Snakes</title>
+          <duration>3.22</duration>
+        </song>
+      <song>
+          <title>Inmate 4859</title>
+          <duration>5.15</duration>
+        </song>
+      <song>
+          <title>To Hell And Back</title>
+          <duration>4.13</duration>
+        </song>
+      </songs>
+    </album>
+  <album>
+      <name>Test</name>
+      <artist>Sabaton</artist>
+      <year>2000</year>
+      <producer>TestProducer</producer>
+      <price>30</price>
+      <songs>
+        <song>
+          <title>Some song</title>
+          <duration>35.00</duration>
+        </song>
+      </songs>
+    </album>
+  </albums>
+</catalog>

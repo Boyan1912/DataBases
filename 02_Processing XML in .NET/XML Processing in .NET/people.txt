@@ -1,0 +1,9 @@
+﻿Name: Pesho
+Address: Sofia, Zonata na zdracha, block 5, floor 3, apartment 14
+Phone number: +359 888 88 99 00
+Name: Joro
+Address: Sofia, Mladost 1, block 113, floor 12, apartment 69
+Phone number: +359 889 88 99 11
+Name: Bojko
+Address: Varna, Chaika, block 12, apartment 445
+Phone number: +359 886 13 13 55

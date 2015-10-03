@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<people>
+  <person>
+    <name>Pesho</name>
+    <address>Sofia, Zonata na zdracha, block 5, floor 3, apartment 14</address>
+    <phoneNumber>+359 888 88 99 00</phoneNumber>
+  </person>
+  <person>
+    <name>Joro</name>
+    <address>Sofia, Mladost 1, block 113, floor 12, apartment 69</address>
+    <phoneNumber>+359 889 88 99 11</phoneNumber>
+  </person>
+  <person>
+    <name>Bojko</name>
+    <address>Varna, Chaika, block 12, apartment 445</address>
+    <phoneNumber>+359 886 13 13 55</phoneNumber>
+  </person>
+</people>

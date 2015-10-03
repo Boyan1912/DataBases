@@ -1,0 +1,7 @@
+E:\Databases\02_Processing XML in .NET\XML Processing in .NET\bin\Debug\XML_Processing_in.NET.exe.config
+E:\Databases\02_Processing XML in .NET\XML Processing in .NET\bin\Debug\XML_Processing_in.NET.exe
+E:\Databases\02_Processing XML in .NET\XML Processing in .NET\bin\Debug\XML_Processing_in.NET.pdb
+E:\Databases\02_Processing XML in .NET\XML Processing in .NET\bin\Debug\Newtonsoft.Json.dll
+E:\Databases\02_Processing XML in .NET\XML Processing in .NET\obj\Debug\XML Processing in .NET.csprojResolveAssemblyReference.cache
+E:\Databases\02_Processing XML in .NET\XML Processing in .NET\obj\Debug\XML_Processing_in.NET.exe
+E:\Databases\02_Processing XML in .NET\XML Processing in .NET\obj\Debug\XML_Processing_in.NET.pdb

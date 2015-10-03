@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="styles.xslt" ?>
+<students xmlns:students="urn:students.com">
+  <student>
+  <name>Pesho</name>
+  <sex>Male</sex>
+  <birthDate>02.02.2000</birthDate>
+  <phone>0888 88 88 77</phone>
+  <email>pesho@mail.pesho</email>
+  <course>DB</course>
+  <specialty>PC</specialty>
+  <facultyNumber>223344</facultyNumber>
+  <exams>
+    <exam>
+      <name>JS App</name>
+      <tutor>Toncho</tutor>
+      <score>20/200</score>
+    </exam>
+    <exam>
+      <name>CSS</name>
+      <tutor>Toncho</tutor>
+      <score>50/55</score>
+    </exam>
+  </exams>
+  </student>
+  <student>
+    <name>Tosho</name>
+    <sex>Male</sex>
+    <birthDate>11.02.1979</birthDate>
+    <phone>0888 88 88 77</phone>
+    <email>gosho@mail.gosho</email>
+    <course>DB</course>
+    <specialty>PC</specialty>
+    <facultyNumber>777777</facultyNumber>
+    <exams>
+      <exam>
+        <name>JS App</name>
+        <tutor>Toncho</tutor>
+        <score>180/200</score>
+      </exam>
+      <exam>
+        <name>CSS</name>
+        <tutor>Toncho</tutor>
+        <score>5/55</score>
+      </exam>
+    </exams>
+  </student>
+</students>
