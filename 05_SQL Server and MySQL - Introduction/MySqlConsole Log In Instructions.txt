@@ -1,0 +1,2 @@
+Find at : C:\Program Files\MySQL\MySQL Server 5.6\bin\mysql.exe
+Enter: mysql.exe -u root -p - will prompt for a password

@@ -1,0 +1,41 @@
+What is SQL?
+
+SQL (Structured Query Language) is a standard interactive and programming language for getting information from and updating a database. 
+Although SQL is both an ANSI and an ISO standard, many database products support SQL with proprietary extensions to the 
+standard language. Queries take the form of a command language that lets you select, insert, update, find out the location 
+of data, and so forth. There is also a programming interface. 
+
+What is DML? 
+
+A data manipulation language (DML) is a family of computer languages including commands permitting users to manipulate 
+data in a database. This manipulation involves inserting data into database tables, retrieving existing data, 
+deleting data from existing tables and modifying existing data. DML is mostly incorporated in SQL databases.
+
+Recite the most important SQL commands.
+
+1. Inserting records in a table
+INSERT INTO Students (id, name, age) VALUES (‘1’, ‘alan’, 28);
+2. Viewing all records from a table.
+SELECT * FROM Students;
+3. Viewing only selected records from a table
+SELECT COUNT(1) FROM Students;
+SELECT id , name , MAX(age) FROM Students;
+4. Deleting records from a table
+DELETE FROM Students WHERE name = ‘alan’;
+5. Changing data in existing records in a table
+UPDATE Students SET age = 22 WHERE name = ‘amy’;
+6. Viewing records from a table without knowing exact details
+SELECT * FROM Students WHERE name LIKE ‘d%n’;
+7. Using more than one condition in WHERE clause to retrieve records
+SELECT * FROM Students WHERE name = ‘dan’ AND age = 24;
+8. Viewing only selected columns from a table
+SELECT name , age FROM Students;
+
+What is Transact-SQL (T-SQL)?
+
+T-SQL (Transact-SQL) is a set of programming extensions from Sybase and Microsoft that add several features to the 
+Structured Query Language (SQL) including transaction control, exception and error handling, row processing, 
+and declared variables. T-SQL expands on the SQL standard to include procedural programming, local variables, 
+various support functions for string processing, date processing, mathematics, etc. and changes to the DELETE 
+and UPDATE statements.
+
