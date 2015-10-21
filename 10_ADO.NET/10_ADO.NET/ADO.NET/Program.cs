@@ -1,0 +1,67 @@
+﻿namespace ADO.NET
+{
+    using System;
+    using System.Data.SqlClient;
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            SqlConnection dbCon = new SqlConnection("Server=.; " +
+            "Database=NORTHWND; Integrated Security=true");
+            dbCon.Open();
+
+            using (dbCon)
+            {
+
+                /*01. Write a program that retrieves from the Northwind sample database in MS SQL Server the number of rows in the Categories table.*/
+
+                SqlCommand command = new SqlCommand("SELECT COUNT(*) FROM Categories", dbCon);
+
+                int rows = (int)command.ExecuteScalar();
+
+                Console.WriteLine("Number of Categories: {0}", rows);
+
+                /*02.  Write a program that retrieves the name and description of all categories in the Northwind DB.*/
+
+                var namesAndDescCmd = new SqlCommand("SELECT CategoryName, Description FROM Categories", dbCon);
+
+                SqlDataReader reader = namesAndDescCmd.ExecuteReader();
+
+                using (reader)
+                {
+                    Console.WriteLine();
+                    Console.WriteLine("Category Name".PadRight(17, '-') + "> Description");
+                    while (reader.Read())
+                    {
+                        string name = ((string)reader["CategoryName"]).PadRight(17, '-');
+                        string description = (string)reader["Description"];
+                        Console.WriteLine("{0}> {1}", name, description);
+                    }
+                }
+                /*03.  Write a program that retrieves from the Northwind database all product categories and the names of the products in each category.
+                    * Can you do this with a single SQL query (with table join)?*/
+                string productCategoriesAndNamesCmnd = "SELECT c.CategoryName, p.ProductName" +
+                    " FROM Categories c " +
+                    "LEFT JOIN Products p " +
+                    "ON c.CategoryID = p.CategoryID;";
+
+                var cmnd = new SqlCommand(productCategoriesAndNamesCmnd, dbCon);
+                var newReader = cmnd.ExecuteReader();
+
+                using (newReader)
+                {
+                    Console.WriteLine();
+                    Console.WriteLine("Category Name".PadRight(17, '-') + "> Product Name");
+                    while (newReader.Read())
+                    {
+                        string category = ((string)newReader["CategoryName"]).PadRight(17, '-');
+                        string prodName = (string)newReader["ProductName"];
+                        Console.WriteLine("{0}> {1}", category, prodName);
+                    }
+                }
+                Console.ReadKey();
+            }
+
+        }
+    }
+}

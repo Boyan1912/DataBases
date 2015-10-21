@@ -1,0 +1,38 @@
+﻿namespace ADO.NET
+{
+    /* 05 Write a program that retrieves the images for all categories in the Northwind database and stores them as JPG files in the file system. */
+    using System.Collections.Generic;
+    using System.Data.SqlClient;
+    class Program
+    {
+        private const string ConnectionString = "Server=.; Database=NORTHWND; Integrated Security=true";
+
+        static void Main(string[] args)
+        {
+            IList<byte[]> images = ExtractImages();
+
+        }
+
+        private static IList<byte[]> ExtractImages()
+        {
+            var result = new List<byte[]>();
+
+            var dbCon = new SqlConnection(ConnectionString);
+            dbCon.Open();
+
+            using(dbCon)
+            {
+                var cmnd = new SqlCommand("SELECT Picture FROM Categories", dbCon);
+
+                var reader = cmnd.ExecuteReader();
+                while(reader.Read())
+                {
+                    var image = (byte[])reader["Picture"];
+                    result.Add(image);
+                }
+            }
+
+            return result;
+        }
+    }
+}

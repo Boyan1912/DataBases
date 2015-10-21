@@ -1,0 +1,22 @@
+﻿using System.Data.SqlClient;
+namespace ADO.NET
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            SqlConnection dbCon = new SqlConnection("Server=BOYAN-PC\\SQLEXPRESS; " +
+            "Database=NORTHWND; Integrated Security=true");
+            dbCon.Open();
+
+            using(dbCon)
+            {
+                SqlCommand command = new SqlCommand("SELECT COUNT(*) FROM Categories", dbCon);
+
+                int rows = (int)command.ExecuteScalar();
+
+                System.Console.WriteLine("Number of Categories: {0}", rows);
+            }
+        }
+    }
+}
