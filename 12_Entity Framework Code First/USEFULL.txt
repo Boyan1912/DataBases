@@ -1,0 +1,13 @@
+<connectionStrings>
+    <add name ="StudentsSystem" connectionString="Data Source=.;Initial Catalog=StudentsSystem;Integrated Security=true" providerName="System.Data.SqlClient"/>
+  </connectionStrings>
+
+
+package manager console: - use where the DbContext project is
+Command: Enable-Migrations
+
+class Configuration => make public
+AutomaticMigrationsEnabled = true; - for automatic update
+
+write in main method: Database.SetInitializer(new MigrateDatabaseToLatestVersion<StudentsDbContext, Configuration>()); -
+for auto migration

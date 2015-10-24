@@ -1,6 +1,0 @@
-E:\Databases\DataBases\tests\test\test\bin\Debug\test.exe.config
-E:\Databases\DataBases\tests\test\test\bin\Debug\test.exe
-E:\Databases\DataBases\tests\test\test\bin\Debug\test.pdb
-E:\Databases\DataBases\tests\test\test\obj\Debug\test.csprojResolveAssemblyReference.cache
-E:\Databases\DataBases\tests\test\test\obj\Debug\test.exe
-E:\Databases\DataBases\tests\test\test\obj\Debug\test.pdb
